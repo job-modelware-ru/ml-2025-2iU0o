@@ -1,0 +1,58 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Тесты / покрытие
+.pytest_cache/
+.coverage*
+htmlcov/
+.nox/
+.tox/
+.cache/
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+.python-version
+*.env
+*.env.*
+
+# Пакетирование
+*.egg-info/
+*.egg
+dist/
+build/
+wheels/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Анализаторы / тайпчекеры
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+
+# --- IDE/Editor ---
+.idea/
+.vscode/
+*.code-workspace
+
+# --- ОС-мусор (Windows/macOS) ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Логи ---
+*.log
+
+# --- Проект-специфичное ---
+results/
+
+# Временные файлы Office
+~$*
